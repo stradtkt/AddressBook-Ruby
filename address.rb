@@ -18,12 +18,3 @@ class Address
     address
   end
 end
-
-home = Address.new
-home.kind = "Home"
-home.street_1 = "513 Main St."
-home.city = "Cincinnati"
-home.state = "OH"
-home.postal_code = "45244"
-puts home.to_s('short')
-puts home.to_s('long')
